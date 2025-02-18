@@ -31,8 +31,8 @@ A API permite as seguintes operações:
 ```bash
    git clone https://github.com/IgorAlves23/Projeto_Java.git.
 ```
-### Acessando o Swegger
-para acessar o Swegger da Aplicação ulitlize o link:
+### Acessando o Swagger
+para acessar o Swagger da Aplicação ulitlize o link:
 
 [Link do Swegger](http://localhost:8080/swagger-ui.html)
 

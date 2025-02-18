@@ -34,7 +34,7 @@ A API permite as seguintes operações:
 ### Acessando o Swagger
 para acessar o Swagger da Aplicação ulitlize o link:
 
-[Link do Swegger](http://localhost:8080/swagger-ui.html)
+[Link do Swagger](http://localhost:8080/swagger-ui.html)
 
 ### Tipos de Contatos
 - **Telefone = 0**

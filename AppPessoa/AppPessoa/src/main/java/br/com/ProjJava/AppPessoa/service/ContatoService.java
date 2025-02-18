@@ -44,12 +44,15 @@ public class ContatoService
 			{
 				System.out.println("Contato não encontrado");
 				return null;
-			}else 
+			}
+			
+			else 
 			{
 				contato.setPessoa(findPessoa.get());
 				return contatoRepository.save(contato);
 			}			
-			}else 
+			}
+		else 
 			{
 				System.out.println("Contato nulo");
 				return null;

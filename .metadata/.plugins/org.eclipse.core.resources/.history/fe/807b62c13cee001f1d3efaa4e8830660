@@ -1,0 +1,5 @@
+package br.com.ProjJava.AppPessoa.config;
+
+public class OpenApiConfig {
+
+}

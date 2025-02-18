@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.ProjJava.AppPessoa.maladireta.MalaDireta;
 import br.com.ProjJava.AppPessoa.model.Pessoa;
 import br.com.ProjJava.AppPessoa.service.PessoaService;
+import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
 @RequestMapping("/api/pessoa") //http://localhost:8080/api/pessoa
@@ -26,6 +27,7 @@ public class PessoaResource
 	@Autowired
 	PessoaService pessoaService;
 	
+	@Operation(summary = "Cria uma nova pessoa")
 	@PostMapping //POST //http://localhost:8080/api/pessoa
 	public ResponseEntity<Pessoa> save(@RequestBody Pessoa pessoa)
 	{
@@ -41,7 +43,7 @@ public class PessoaResource
 		}
 	}
 	
-	
+	@Operation(summary = "Retorna os dados de uma pessoa por ID")
 	@GetMapping("/{id}") //GET //http://localhost:8080/api/pessoa/1
 	//retorna os dados de uma Pessoa por ID
 	public ResponseEntity<Optional<Pessoa>> findById(@PathVariable Long id)
@@ -58,6 +60,7 @@ public class PessoaResource
 		}
 	}
 	
+	@Operation(summary = "Retorna os dados de uma pessoa por ID para mala direta")
 	@GetMapping("/maladireta/{id}") //GET //http://localhost:8080/api/pessoa/maladireta/1
 	//retorna os dados de uma Pessoa por ID para mala direta
 	public ResponseEntity<MalaDireta> findPessoaPorId(@PathVariable Long id)
@@ -72,7 +75,8 @@ public class PessoaResource
 		}
 	}
 	
-	@GetMapping("/lista") //GET //http://localhost:8080/api/pessoa/lista
+	@Operation(summary = "Retorna uma lista de todas as pessoas cadastradas")
+	@GetMapping //GET //http://localhost:8080/api/pessoa
 	public ResponseEntity<List<Pessoa>> findAll()
 	{
 		List<Pessoa> pessoa = pessoaService.findAll();
@@ -83,7 +87,8 @@ public class PessoaResource
 		return ResponseEntity.ok(pessoa);
 	}
 	
-	@PutMapping //PUT //http://localhost:8080/api/pessoa
+	@Operation(summary = "Atualiza uma pessoa existente por ID")
+	@PutMapping("/{id}") //PUT //http://localhost:8080/api/pessoa
 	public ResponseEntity<Pessoa> update(@RequestBody Pessoa pessoa)
 	{
 		Pessoa updPessoa = pessoaService.update(pessoa);
@@ -97,6 +102,7 @@ public class PessoaResource
 		}
 	}
 	
+	@Operation(summary = "Deleta uma pessoa existente por ID")
 	@DeleteMapping("/{id}") //DELETE http://localhost:8080/api/pessoa/1
 	public ResponseEntity<?> delete(@PathVariable Long id)
 	{

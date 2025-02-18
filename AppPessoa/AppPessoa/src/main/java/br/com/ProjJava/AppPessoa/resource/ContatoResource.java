@@ -41,13 +41,18 @@ public class ContatoResource
 	public ResponseEntity<Optional<Contato>> findById(@PathVariable Long id)
 	{
 		Optional<Contato> findContato = contatoService.findById(id);
-		if(findContato == null) 
+		if(findContato == null)
+		{
 			return ResponseEntity.badRequest().build(); //400
+		}
+		else
+		{
 			return ResponseEntity.ok(findContato); //200
+		}
 	}
 	
 	@Operation(summary = "Lista todos os contatos de uma pessoa por ID")
-	@GetMapping("/{idpessoa}") //GET http://localhost:8080/api/contato/1
+	@GetMapping("lista/{idpessoa}") //GET http://localhost:8080/api/contato/lista/1
 	public ResponseEntity<List<Contato>> findByPessoaId(@PathVariable Long idpessoa)
 	{
 		List<Contato> contatos = contatoService.findByPessoaId(idpessoa);

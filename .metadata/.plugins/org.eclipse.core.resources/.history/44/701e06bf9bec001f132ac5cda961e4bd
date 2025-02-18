@@ -1,0 +1,5 @@
+package br.com.ProjJava.AppPessoa.repository;
+
+public interface PessoaRepository {
+
+}

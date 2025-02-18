@@ -1,0 +1,13 @@
+package br.com.ProjJava.AppPessoa;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AppPessoaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AppPessoaApplication.class, args);
+	}
+
+}

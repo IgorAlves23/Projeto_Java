@@ -1,0 +1,78 @@
+2025-02-15 15:36:41,864 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-15 16:21:22,916 [Worker-19: Creating project "MavenProj"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.ProjJava:MavenProj:0.0.1-SNAPSHOT @ D:\Dev\JAVA2025\ProjetoJava\MavenProj\pom.xml.
+2025-02-15 16:21:24,040 [Worker-19: Creating project "MavenProj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProj/src/main/java
+2025-02-15 16:21:24,041 [Worker-19: Creating project "MavenProj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProj/src/main/resources
+2025-02-15 16:21:24,042 [Worker-19: Creating project "MavenProj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MavenProj/src/test/java
+2025-02-15 16:21:24,042 [Worker-19: Creating project "MavenProj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MavenProj/src/test/resources
+2025-02-15 16:21:24,416 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:21:24,419 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:21:24,430 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:21:24,432 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-15 16:26:21,055 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:26:21,058 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:26:21,059 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:26:21,061 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-15 16:28:52,802 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:28:52,803 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:28:52,805 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:28:52,807 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-15 16:30:51,128 [Worker-33: Launching Principal] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.ProjJava:MavenProj:0.0.1-SNAPSHOT @ D:\Dev\JAVA2025\ProjetoJava\MavenProj\pom.xml.
+2025-02-15 16:30:51,239 [Worker-33: Launching Principal] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:30:51,242 [Worker-33: Launching Principal] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:30:51,245 [Worker-33: Launching Principal] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-15 16:30:51,247 [Worker-33: Launching Principal] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-15 16:49:22,105 [Worker-38: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.ProjJava:AppPessoa:0.0.1-SNAPSHOT @ D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\pom.xml.
+2025-02-15 16:49:23,478 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppPessoa/src/main/java
+2025-02-15 16:49:23,480 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppPessoa/src/main/resources
+2025-02-15 16:49:23,482 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppPessoa/src/main/resources
+2025-02-15 16:49:23,485 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppPessoa/src/test/java
+2025-02-15 16:49:23,486 [Worker-38: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppPessoa/src/test/resources
+2025-02-15 16:49:25,498 [Worker-38: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-02-15 16:49:25,919 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 16:49:25,932 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:49:25,936 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 16:51:30,085 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.ProjJava:AppPessoa:0.0.1-SNAPSHOT @ D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\pom.xml.
+2025-02-15 16:51:30,487 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:51:30,488 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:51:30,491 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 16:53:16,546 [Worker-44: Launching AppPessoaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 16:53:16,567 [Worker-44: Launching AppPessoaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:53:16,571 [Worker-44: Launching AppPessoaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 16:56:02,085 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 16:56:02,096 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 16:56:02,098 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 17:02:37,288 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.ProjJava:AppPessoa:0.0.1-SNAPSHOT @ D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\pom.xml.
+2025-02-15 17:02:38,329 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 17:02:38,330 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 17:02:38,332 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 17:05:07,060 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 17:05:07,070 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 17:05:07,072 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 17:05:27,674 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 17:05:27,680 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 17:05:27,682 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-15 17:36:54,930 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-15 17:36:54,936 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-15 17:36:54,938 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 15:28:55,999 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-16 16:23:46,444 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 16:23:46,468 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 16:23:46,471 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 16:25:14,222 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 16:25:14,229 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 16:25:14,232 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 16:30:52,065 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 16:30:52,072 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 16:30:52,075 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 17:40:20,208 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 17:40:20,215 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 17:40:20,218 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 17:40:26,700 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 17:40:26,705 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 17:40:26,708 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 18:39:32,689 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 18:39:32,695 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 18:39:32,697 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources
+2025-02-16 18:39:44,561 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-16 18:39:44,564 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 18:39:44,566 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Dev\JAVA2025\ProjetoJava\AppPessoa\AppPessoa\src\test\resources

@@ -1,0 +1,61 @@
+package br.com.ProjJava.AppPessoa.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.ProjJava.AppPessoa.model.Contato;
+import br.com.ProjJava.AppPessoa.repository.ContatoRepository;
+import br.com.ProjJava.AppPessoa.repository.PessoaRepository;
+
+@Service
+public class ContatoService 
+{
+	@Autowired
+	private ContatoRepository contatoRepository;
+	
+	@Autowired
+	private PessoaRepository pessoaRepository;
+	
+	//CURD - Create
+	
+	
+	
+	//CRUD - Read
+	public Optional<Contato> findById(Long id)
+	{
+		return contatoRepository.findById(id);
+	}
+	
+	public List<Contato> findByPessoaId(Long pessoaId)
+	{
+		//retorna todos os contatos de uma pessoa
+		 return contatoRepository.findByPessoaId(pessoaId);
+	}
+	
+	//CRUD - Update
+	public Contato update(Contato contato)
+	{
+		//verifica se o conatato existe
+		Optional<Contato> findContato = contatoRepository
+				.findById(contato.getId());
+		
+		//se existir, atualizar:
+		if(findContato.isPresent()) 
+		{
+			Contato updContato = findContato.get();
+			updContato.setTipoContato(contato.getTipoContato());
+			updContato.setContato(contato.getContato());
+			return contatoRepository.save(updContato); //Update
+		}
+		return contatoRepository.save(contato); //Insert
+	}
+	
+	//CURD - Delete
+	public void delete(Long id)
+	{
+		contatoRepository.deleteById(id);
+	}
+}

@@ -1,0 +1,72 @@
+package br.com.ProjJava.AppPessoa.model;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_contato")
+public class Contato 
+{
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //autoincrement
+	private Long id;
+	
+	@Enumerated(EnumType.ORDINAL)
+	@Column(nullable = false) //not null
+	private TipoContato tipoContato;
+	
+	@Column(nullable = false) //not null
+	private String contato;
+	
+	@ManyToOne
+	@JoinColumn(name = "pessoa_id", nullable = false)
+	private Pessoa pessoa;
+	
+	public enum TipoContato 
+	{
+	    TELEFONE(0),
+	    CELULAR(1);
+		
+		private final int codigo;
+
+	    TipoContato(int codigo) 
+	    {
+	        this.codigo = codigo;
+	    }
+
+	    public int getCodigo() 
+	    {
+	        return codigo;
+	    }
+
+	    public static TipoContato fromCodigo(int codigo) 
+	    {
+	        for (TipoContato tipo : TipoContato.values()) 
+	        {
+	            if (tipo.getCodigo() == codigo) 
+	            {
+	                return tipo;
+	            }
+	        }
+	        throw new IllegalArgumentException("Código de TipoContato inválido: " + codigo);
+	    }
+	}
+	
+	public Contato() {}
+	
+	public Contato(Long id, TipoContato tipoContato, String contato)
+	{
+		this.id = id;
+		this.tipoContato = tipoContato;
+		this.contato = contato;
+	}
+	
+}
